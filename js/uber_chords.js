@@ -754,7 +754,7 @@ function Draw10(){
 	/*Show and run the progressBar*/
 	runProgressBar(time=700*11);
 	
-	changeTopText(newText = "2.79% of Financial District riders is the highest range of riders who stay within the neighborhood",
+	changeTopText(newText = "2.79% of Financial District riders commute within the neighborhood",
 		loc = 7/2, delayDisappear = 0, delayAppear = 1);
 		changeTopText(newText = "That is nearly 18% of GoBike users who start from Financial District and do not leave the neighborhood "+
 								"",

@@ -804,15 +804,15 @@ function Draw10(){
 	/*Make the other strokes less visible*/
 	d3.selectAll("g.group").selectAll("line")
 		.transition().duration(700)
-		.style("stroke",function(d,i,j) {if (j == 9) {return "#000";} else {return "#DBDBDB";}});
+		.style("stroke",function(d,i,j) {if (j == 0) {return "#000";} else {return "#DBDBDB";}});
 	/*Same for the %'s*/
 	svg.selectAll("g.group")
 		.transition().duration(700)
-		.selectAll(".tickLabels").style("opacity",function(d,i,j) {if (j == 9) {return 1;} else {return opacityValue;}});
+		.selectAll(".tickLabels").style("opacity",function(d,i,j) {if (j == 0) {return 1;} else {return opacityValue;}});
 	/*And the Names of each Arc*/	
 	svg.selectAll("g.group")
 		.transition().duration(700)
-		.selectAll(".titles").style("opacity", function(d) { if(d.index == 9) {return 1;} else {return opacityValue;}});
+		.selectAll(".titles").style("opacity", function(d) { if(d.index == 0) {return 1;} else {return opacityValue;}});
 
 };/*Draw10*/
 

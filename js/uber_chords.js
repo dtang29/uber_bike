@@ -754,9 +754,9 @@ function Draw10(){
 	/*Show and run the progressBar*/
 	runProgressBar(time=700*11);
 	
-	changeTopText(newText = "2.79% of Financial District riders commute within the neighborhood",
+	changeTopText(newText = "2.79% of all users commute within the Financial District neighborhood",
 		loc = 7/2, delayDisappear = 0, delayAppear = 1);
-		changeTopText(newText = "That is nearly 18% of bike users who start from Financial District and do not leave the neighborhood "+
+		changeTopText(newText = "That is nearly 18% of Financial District riders who start from Financial District and do not leave the neighborhood "+
 								"",
 		loc = 7/2, delayDisappear = 9, delayAppear = 10, finalText = true);
 		

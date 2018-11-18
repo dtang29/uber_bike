@@ -611,7 +611,7 @@ function Draw7(){
 	/*Samsung and Nokia text*/
 	changeTopText(newText = "At the South Beach side, the arc size is almost the same, spanning 2.58%",
 		loc = 1/2, delayDisappear = 0, delayAppear = 1);
-	changeTopText(newText = "These 2.58% riders travel back to Financial District",
+	changeTopText(newText = "These bike users travel back to Financial District",
 		loc = 1/2, delayDisappear = 8, delayAppear = 9, finalText = true);
 		
 	/*Stop the color changing on the Financial side*/
@@ -756,7 +756,7 @@ function Draw10(){
 	
 	changeTopText(newText = "2.79% of Financial District riders commute within the neighborhood",
 		loc = 7/2, delayDisappear = 0, delayAppear = 1);
-		changeTopText(newText = "That is nearly 18% of GoBike users who start from Financial District and do not leave the neighborhood "+
+		changeTopText(newText = "That is nearly 18% of bike users who start from Financial District and do not leave the neighborhood "+
 								"",
 		loc = 7/2, delayDisappear = 9, delayAppear = 10, finalText = true);
 		
